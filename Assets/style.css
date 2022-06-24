@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif'
+}
+
+#intro {
+    font-size: large;
+}
+
+#menu {
+    float: left;
+    list-style-type: none;
+    display: flex;
+    background-color: white;
+    margin: 8px;
+    padding: 8px;
+    width: 100%;
+    text-size-adjust: 100%;
+}
+
+#FAB { 
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+#FABCHILD span {
+    display: inline;
+    flex-direction: row;    
+}
+
+
+#FAB:hover {
+    opacity: 45%;
+    transform: scale(1.1);
+}
+
+#FAB:hover p {
+    display: none;
+}
+
+#Horiseon { 
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+    
+}
+
+
+
+#Horiseon:hover {
+    opacity: 45%;
+    transform: scale(1.1);
+
+}
+
+#Horiseon:hover p {
+    display: none;
+}
+
+#refactor span {
+    display: inline;
+    flex-direction: row;    
+}
+
+.child {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+  }
+  
+  .parent {
+    position: relative;
+    /* background-color: aqua; */
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+  }
+
+  #Projects {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+.menuitem {
+    width: 25%;
+
+}
+
+#Nashbi {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    float: right;
+
+}
